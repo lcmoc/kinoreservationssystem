@@ -1,0 +1,16 @@
+/*
+ * Skypack CDN - react-flipcard@0.2.1
+ *
+ * Learn more:
+ *   📙 Package Documentation: https://www.skypack.dev/view/react-flipcard
+ *   📘 Skypack Documentation: https://www.skypack.dev/docs
+ *
+ * Pinned URL: (Optimized for Production)
+ *   ▶️ Normal: https://cdn.skypack.dev/pin/react-flipcard@v0.2.1-D5bGylvhUj2jBw3ey62Z/mode=imports/optimized/react-flipcard.js
+ *   ⏩ Minified: https://cdn.skypack.dev/pin/react-flipcard@v0.2.1-D5bGylvhUj2jBw3ey62Z/mode=imports,min/optimized/react-flipcard.js
+ *
+ */
+
+// Browser-Optimized Imports (Don't directly import the URLs below in your application!)
+export * from '/-/react-flipcard@v0.2.1-D5bGylvhUj2jBw3ey62Z/dist=es2019,mode=imports/optimized/react-flipcard.js';
+export {default} from '/-/react-flipcard@v0.2.1-D5bGylvhUj2jBw3ey62Z/dist=es2019,mode=imports/optimized/react-flipcard.js';
