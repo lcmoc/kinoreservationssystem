@@ -30,9 +30,11 @@ const Login = () => {
           />
           <p>
             Kein Konto?{" "}
-            <a href="/register" className="hover:text-blue-600 underline">
-              Registrieren
-            </a>
+            <Link href="/register">
+              <a className="hover:text-blue-600 underline">
+                Registrieren
+              </a>
+            </Link>
           </p>
           <div className="flex items-center justify-center">
             <Link href="/films">

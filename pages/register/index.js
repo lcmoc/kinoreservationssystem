@@ -79,9 +79,11 @@ const Register = () => {
           </div>
           <p>
             Du hast bereits ein Konto?{" "}
-            <a href="/login" className="hover:text-blue-600 underline">
-              Einloggen
-            </a>
+            <Link href="/login">
+              <a className="hover:text-blue-600 underline">
+                Einloggen
+              </a>
+            </Link>
           </p>
           <div className="flex items-center justify-center">
             <Link href="/commit">
