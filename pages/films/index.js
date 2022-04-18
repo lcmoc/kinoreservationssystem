@@ -46,31 +46,31 @@ const Films = () => {
             publishDate="15. Dezember 2021"
           />
           <Card
-            src={"/spiderman.webp"}
-            alt="spiderman"
-            title="No way home"
-            txt="Nachdem Spider-Man demaskiert wurde, bittet er den Magier Doctor Strange, das Geheimnis um seine Identität wiederherzustellen."
+            src={"/batmanfilm.jpg"}
+            alt="batman"
+            title="THE BATMAN"
+            txt="Seit zwei Jahren versetzt Bruce Wayne als Batman die Kriminellen von Gotham City in Angst und Schrecken."
             time={"20.00 - 22.30h"}
-            actor="Alfred Molina"
-            publishDate="15. Dezember 2021"
+            actor="	Amber Sienna"
+            publishDate="3. März 2022"
           />
           <Card
-            src={"/spiderman.webp"}
-            alt="spiderman"
-            title="No way home"
-            txt="Nachdem Spider-Man demaskiert wurde, bittet er den Magier Doctor Strange, das Geheimnis um seine Identität wiederherzustellen."
+            src={"/jackass.jpg"}
+            alt="jackass"
+            title="JACKASS FOREVER"
+            txt="Johnny Knoxville erlebt in diesem gigantischen Jackass-Spektakel den intensivsten Bullenritt seines Lebens. "
             time={"20.00 - 22.30h"}
-            actor="Alfred Molina"
-            publishDate="15. Dezember 2021"
+            actor="Johnny Knoxville , Steve-O"
+            publishDate="10. März 2022"
           />
           <Card
-            src={"/spiderman.webp"}
-            alt="spiderman"
-            title="No way home"
-            txt="Nachdem Spider-Man demaskiert wurde, bittet er den Magier Doctor Strange, das Geheimnis um seine Identität wiederherzustellen."
+            src={"/uncharted.jpg"}
+            alt="uncharted"
+            title="UNCHARTED"
+            txt="Der clevere Dieb Nathan Drake (Tom Holland) wird vom Schatzsucher Victor „Sully“ Sullivan (Mark Wahlberg) angeworben, ein Vermögen zu bergen."
             time={"20.00 - 22.30h"}
-            actor="Alfred Molina"
-            publishDate="15. Dezember 2021"
+            actor="Tom Holland"
+            publishDate="17. Februar 2022"
           />
         </div>
       </main>
