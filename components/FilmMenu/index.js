@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from "../../styles/FilmMenu.module.css"
 
 const FilmMenu = ({link, txt}) => {
   return (
     <Link href={link}>
-      <a className="text-xl hover:text-white">{txt}</a>
+      <a className={styles.MenuItem}>{txt}</a>
     </Link>
   );
 };

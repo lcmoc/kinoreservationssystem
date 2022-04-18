@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../../styles/FlipCard.module.css";
 
-const Card = ({ src, alt, title, txt }) => {
+const Card = ({ src, alt, title, txt, time, actor}) => {
   return (
     <div className={styles.FlipCard}>
       <div className={styles.FlipCardInner}>
@@ -10,13 +10,11 @@ const Card = ({ src, alt, title, txt }) => {
           <Image src={src} alt={alt} height={700} width={500}></Image>
         </div>
         <div className={styles.FlipCardBack}>
-          <div className="flex items-center justify-center text-center flex-col mt-6 mb-40">
+          <div className="flex items-center justify-center text-center flex-col mt-6 mb-32">
             <h1 className="text-blue-600 text-xl">{title}</h1>
-            <p>{txt}</p>
-            <p>Zeit: 20.00 - 22.30h</p>
-            <p>Darsteller: </p>
-            <p>Erscheiungsdatum: </p>
-            <p>Genre:</p>
+            <p className="p-3">{txt}</p>
+            <p className="">Zeit: {time}</p>
+            <p className="">Darsteller: {actor}</p>
           </div>
           <Link href="/reservation">
             <a>
